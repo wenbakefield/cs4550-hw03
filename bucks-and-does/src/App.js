@@ -21,7 +21,9 @@ function App() {
       if (guess === secret || guesses.length === 7) {
         setGameOver(true);
       }
-      setGuess("");
+      else {
+        setGuess("");
+      }
     }
     else {
       setGuess("");
